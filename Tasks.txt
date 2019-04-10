@@ -1,0 +1,19 @@
+todo Tasks (order of importance)
+*see Standard Web Flow diagram for outline of home page functionality
+	1. how will login work?
+		a. sign in on navbar
+		b. google/facebook login?
+		c. create account?
+	2. how will to-dos be created/written/stored? (basically, how does the site connect to the DB?)
+	3. how will storing to-dos work?
+		a. Need fields:
+			A. Created Date (local date/time?)
+			B. Completed Date (local date/time?)
+			C. Description
+			D. Priority
+		b. where? SQL? PostgreSQL?
+	4. how will to-dos be grabbed/displayed on site? (again, how does the site connect to the DB?)
+	5. how to push incomplete to-dos to the next day?
+		a. need a quick way to test pushing incomplete to-dos to following day
+	5. animate the to-do list on main page so that it flips when day changes. Flip back thru to-dos per day to see history. how to do this?
+	6. 
