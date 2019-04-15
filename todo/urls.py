@@ -19,6 +19,7 @@ from todo import views
 
 urlpatterns = [
 	path('', views.home, name='home'),
+	path('login/', views.login, name='login'),
 	path('date/', views.current_datetime, name='date'),
 	path('blackhole/', views.blackhole, name='blackhole'),
     path('admin/', admin.site.urls),
